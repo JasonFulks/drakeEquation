@@ -19,14 +19,20 @@ fc = 0.1 to 0.2 (10–20% of which will be able to communicate)
 L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,000,000 years)
  */
 
-        int M;
+        int N;
         int rStar;
         double f_p;
         int numberOfExoplanets;
+        double f_l;
         double f_i;
         double f_c;
         int L;
 
+        N - rStar * numberOfExoplanets * f_i * f_l * f_c * L
+
+
+        System.out.println("The number of intelligent species that are out there \n" +
+                "that can communicate with us is" +  N );
     }
 
 }
